@@ -1,6 +1,6 @@
 # Site settings
 title: Lihang Zhou
-baseurl: "/ap"
+baseurl: "/wandererzlh"
 url: "https://wandererzlh.github.io"
 google_analytics: # Tracking ID, e.g. "UA-000000-01"
 
@@ -13,17 +13,17 @@ author:
 
 # social
 social:
-  email: true
+  email: 
   behance:
   bitbucket:
   dribbble:
-  facebook: Test
+  facebook:
   flickr:
-  github: WandererZlh
+  github:
   google_plus:
   instagram:
   keybase:
-  linkedin: Test
+  linkedin:
   pinterest:
   reddit:
   soundcloud:
@@ -31,7 +31,7 @@ social:
   steam:
   tumblr:
   gitlab:
-  twitter: Test
+  twitter:
   vimeo:
   wordpress:
   youtube:
