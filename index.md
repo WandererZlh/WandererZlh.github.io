@@ -13,16 +13,15 @@ My research interests include gravity, black holes, and scattering amplitudes.
 
 <br/>
 
-<div style="text-align: center; font-weight: normal; color: black; ">Email: lzhou2@caltech.edu
+
+<div style="text-align: center; font-weight: bold; color: black; line-height: 2.5;">Email: lzhou2@caltech.edu
 </div>
 
 
-<br/>
-
-
-<div style="text-align: center;"><span style="margin-right: 20px;"><a href="https://inspirehep.net/authors/2723152" style="color: blue; text-decoration: underline; font-weight: bold;">InspireHEP</a></span>
+<div style="text-align: center; line-height: 2.5;"><span style="margin-right: 20px;"><a href="https://inspirehep.net/authors/2723152" style="color: blue; text-decoration: underline; font-weight: bold;">InspireHEP</a></span>
 <span><a href="https://orcid.org/0009-0004-2443-9963" style="color: #A6CE39; text-decoration: underline; font-weight: bold;">Orcid</a></span>
 </div>
+
 
 
 <!-- in sublime, markdown注释快捷键 command+/ -->
