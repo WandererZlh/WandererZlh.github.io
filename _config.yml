@@ -1,13 +1,13 @@
 # Site settings
 title: Lihang Zhou
-baseurl: ""
+baseurl: "/WandererZlh.github.io"
 url: "https://wandererzlh.github.io"
 google_analytics: # Tracking ID, e.g. "UA-000000-01"
 
 # Author
 author:
   name: Lihang Zhou (周立杭)
-  desc: Hello nice to meet you
+  desc: Walter Burke Institute of Theoretical Physics @ Caltech
   email: lzhou2@caltech.edu
   selfie: assets/img/Lihang Zhou.jpg
 
