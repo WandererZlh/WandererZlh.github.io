@@ -13,29 +13,36 @@
           <li><a href="{{ '/' | prepend: site.baseurl }}">About</a></li>
           <li><a href="{{ '/portfolio' | prepend: site.baseurl }}/">Portfolio</a></li>
         </ul>
-    </div>
-  </nav>
+      </div>
+    </nav>
 
     <main>
       {{ content }}
     </main>
 
 
-    <footer style="text-align: center; font-size: bold;font-style: italic; color: #666; font-size: 1.2em;">
-
-      <div style="font-weight: bold;">“Always Wandering, Always Wondering.”</div>
-
-      <div style="display: flex; justify-content: space-between; align-items: center; padding: 20px;">
-        <img src="{{ site.baseurl }}/assets/img/apple.png" alt="Apple Tree" style="width: 300px;">
-        <img src="{{ site.baseurl }}/assets/img/black_hole.png" alt="Black Hole" style="width: 200px;">
-      </div>
-
-
-    </footer>
     <footer>
+      <div style="display: flex; justify-content: center; align-items: center; padding: 0 0;">
+        <!-- 左侧图片 -->
+        <img src="{{ site.baseurl }}/assets/img/colorful_music.jpg" 
+             alt="Left Image" 
+             style="width: 170px; margin-right: 60px;">
+        
+        <!-- 中间文字 -->
+        <div style="text-align: center; font-size: 1.2em; font-style: italic; color: #333;">
+          Always Wandering,<br>Always Wondering.
+        </div>
+        
+        <!-- 右侧图片 -->
+        <img src="{{ site.baseurl }}/assets/img/cat_curious.jpg" 
+             alt="Right Image" 
+             style="width: 140px; margin-left: 90px;">
+      </div>
+      <br/>
       <span>
         &copy; <time datetime="{{ site.time }}">{{ site.time | date: '%Y' }}</time> {{ site.author.name }}. Designed based on <a href="https://github.com/kssim/about-portfolio/">A.P</a> theme by kssim.
       </span>
     </footer>
+
   </body>
 </html>
