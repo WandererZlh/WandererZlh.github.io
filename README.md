@@ -11,3 +11,5 @@ Github Pages + Jekyll tutorials:
 本地编译：bundle exec jekyll s
 
 Jekyll learning resources: https://cloudcannon.com/tutorials/
+
+Baseurl: https://byparker.com/blog/2014/clearing-up-confusion-around-baseurl/
