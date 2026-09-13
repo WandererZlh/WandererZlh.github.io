@@ -1,0 +1,85 @@
+---
+layout: default
+---
+{% assign profile = site.data.profile %}
+
+<main class="container page-shell">
+  <section class="intro" aria-labelledby="introduction-heading">
+    <div class="profile">
+      <img
+        class="portrait"
+        src="{{ profile.portrait | relative_url }}"
+        alt="Portrait of {{ profile.name }}"
+      >
+      <h1>{{ profile.name }}<span lang="zh">（{{ profile.name_zh }}）</span></h1>
+      <p class="affiliation">{{ profile.affiliation }}</p>
+    </div>
+
+    <div class="intro-copy">
+      <h2 id="introduction-heading">About Me</h2>
+      {{ profile.introduction | markdownify }}
+    </div>
+
+    <address class="contact-card">
+      {{ profile.contact | markdownify }}
+    </address>
+  </section>
+
+  <section aria-labelledby="research-heading">
+    <h2 id="research-heading">Research interests</h2>
+    {{ profile.research_interests | markdownify }}
+  </section>
+
+  <section aria-labelledby="papers-heading">
+    <h2 id="papers-heading">Papers</h2>
+    {% for paper in site.data.papers.items %}
+      <article class="work-item">
+        <h3>{{ paper.title }}</h3>
+        {{ paper.body | markdownify }}
+      </article>
+    {% endfor %}
+    {{ site.data.papers.footer | markdownify }}
+  </section>
+
+  <section aria-labelledby="talks-heading">
+    <h2 id="talks-heading">Talks Given</h2>
+    {% for talk in site.data.talks %}
+      <article class="talk-item">
+        <span class="talk-date">{{ talk.date }}</span>
+        <div class="talk-content">
+          <h3>{{ talk.title }}</h3>
+          {{ talk.body | markdownify }}
+        </div>
+      </article>
+    {% endfor %}
+  </section>
+
+  <section aria-labelledby="cv-heading">
+    <h2 id="cv-heading">Brief CV</h2>
+    {% for item in profile.education %}
+      <div class="cv-row">
+        <span class="cv-place">{{ item.institution }}</span>
+        <span>{{ item.role }}</span>
+        <span>{{ item.period }}</span>
+      </div>
+    {% endfor %}
+  </section>
+
+  <footer>
+    {% assign motto_lines = profile.motto | split: ', ' %}
+    <div class="footer-mark">
+      <img
+        class="footer-image footer-image-left"
+        src="{{ '/assets/img/colorful_music.jpg' | relative_url }}"
+        alt="Colorful musical notes"
+      >
+      <p class="motto">{{ motto_lines[0] }},<br>{{ motto_lines[1] }}</p>
+      <img
+        class="footer-image footer-image-right"
+        src="{{ '/assets/img/cat_curious.jpg' | relative_url }}"
+        alt="A curious black cat looking at a ladybug"
+      >
+    </div>
+    <p class="copyright">© {{ site.time | date: '%Y' }} {{ profile.name }}</p>
+  </footer>
+</main>

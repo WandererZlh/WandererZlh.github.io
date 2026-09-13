@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="{{ site.description | escape }}">
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="{{ site.title | escape }}">
+    <meta property="og:description" content="{{ site.description | escape }}">
+    <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url }}">
+    <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}{{ site.og_image }}">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{ site.title | escape }}">
+    <meta name="twitter:description" content="{{ site.description | escape }}">
+    <meta name="twitter:image" content="{{ site.url }}{{ site.baseurl }}{{ site.og_image }}">
+
+    <title>{{ site.title }}</title>
+
+    <link rel="icon" href="{{ '/assets/favicon.ico' | relative_url }}">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    >
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700">
+    <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
+  </head>
+
+  <body>
+    <header class="site-nav">
+      <nav class="nav-container" aria-label="Primary navigation">
+        <a class="nav-title" href="{{ '/' | relative_url }}">Lihang Zhou</a>
+        <div class="nav-links">
+          <a href="{{ '/' | relative_url }}">About</a>
+          <a href="{{ '/portfolio/' | relative_url }}">Portfolio</a>
+        </div>
+      </nav>
+    </header>
+
+    {{ content }}
+  </body>
+</html>

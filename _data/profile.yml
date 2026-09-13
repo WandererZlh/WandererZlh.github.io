@@ -1,0 +1,34 @@
+name: Lihang Zhou
+name_zh: 周立杭
+affiliation: Walter Burke Institute of Theoretical Physics @ Caltech
+portrait: /assets/img/portrait.jpg
+
+introduction: |-
+  Hi, welcome to my webpage! I am a PhD student in theoretical physics at Caltech. I am interested in
+  gravity, black holes, and scattering amplitudes.
+
+  I was born in Ya'an, Sichuan, China. My favorite novelist is Haruki Murakami.
+
+contact: |-
+  **Email: [lzhou2@caltech.edu](mailto:lzhou2@caltech.edu)**
+
+  <a href="https://inspirehep.net/authors/2723152" style="color: blue;">Inspire-HEP</a>&ensp;·&ensp;<a href="https://orcid.org/0009-0004-2443-9963" style="color: #A6CE39;">ORCID</a>
+
+research_interests: |-
+  - Geometric approach to scattering amplitudes
+  - S-matrix bootstrap
+  - Field-theoretic hydrodynamics
+  - Black holes and gravity
+
+education:
+  - institution: California Institute of Technology
+    role: PhD student in Physics
+    period: 2024-current
+  - institution: Peking University
+    role: undergrad in Astronomy
+    period: 2020-2024
+  - institution: Chengdu No.7 High School
+    role: senior high
+    period: 2017-2020
+
+motto: Always Wandering, Always Wondering.
