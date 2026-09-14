@@ -1,5 +1,7 @@
 # Lihang Zhou — Academic Website (v2)
 
+**[Link to my webpage](https://wandererzlh.github.io)**
+
 This is the second version of my academic website, based in part on the
 [A.P Jekyll theme](https://github.com/kssim/ap) by KyeongSeob Sim,
 licensed under the MIT License.
